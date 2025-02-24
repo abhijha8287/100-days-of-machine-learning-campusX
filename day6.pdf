@@ -1,0 +1,15 @@
+Steps
+    1. Data collection
+        API or web scrapping
+    2. Insufficient Data
+    3. Non representative Data
+        sampling noise only in Indian.
+        sampling bias only Indian.
+    4. Poor quality Data.
+    5. Irrelevant Data.
+        Garbage in Garbage out.
+    6. Overfitting.
+    7. underfitting.
+    8. software  integration.
+    9. offline learning.
+    10. cost involved. 

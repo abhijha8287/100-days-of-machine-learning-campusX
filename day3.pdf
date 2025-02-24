@@ -1,0 +1,20 @@
+Batch learning: Data -->Model--> Test --> Server   
+Disadvantages:
+    Lots of Data
+    Hardware limitation
+    Availability
+
+Online machine learning
+    eg. bots, youtube. 
+    when to use?
+        where there is concept drift.
+        cost effective
+        faster solution
+        eg. River lib
+    learning rate: 
+
+    out of core learning:
+        bhut sare data ko jab ek sath load nhi kr pate toh iska use krte hai    
+    Disadvantages:
+        Tricky to use
+        Risky

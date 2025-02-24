@@ -1,0 +1,20 @@
+Types of ML
+
+1. supervised learning
+    Regression target--> numerical 
+    classification target--> categorical
+
+2. unsupervised learning
+    clustering
+    dimensional reduction
+    anomaly detection
+    Association rule learning --> milk ke sath egg
+
+3. semi supervised
+    eg.google photos with name
+
+4. reinforcement learning
+    agent ko +ve or -ve award krna.
+
+
+

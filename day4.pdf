@@ -1,0 +1,9 @@
+Types of learning
+    1. Instance based learning
+        eg. knn, rbf , kernel based learning 
+        more storage need.
+
+
+    2. Model based learning
+        eg. make decision boundary
+        Rule fixed
