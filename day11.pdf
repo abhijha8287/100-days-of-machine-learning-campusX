@@ -1,0 +1,14 @@
+Tensor:
+    container that contains numbers.
+    0d Tensor: 1
+    1d Tensor: [1,2,3,4] (vector) vector ke dim 4 hai kyuki 4 numbers hai. rank=1
+    2d Tensor: [[1,2,3,4],[5,6,7,8]] (matrix) rank=2
+    nd Tensor: [[[1,2,3,4],[5,6,7,8]],[[9,10,11,12],[13,14,15,16]]] (3d tensor) rank=3
+
+    rank: number of dimensions. number of axis.
+    shape: size of each dimension.  
+    size: total number of elements. 
+    
+    
+    
+    

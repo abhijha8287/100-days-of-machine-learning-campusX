@@ -1,0 +1,10 @@
+Machine Learning Development Life Cycle
+    1. Frame the problem
+    2. Data collection --> csv, json, web scrapping, API,
+    3. Data preprocessing --> missing values, outliers, scaling..
+    4. Eda --> visualization, univariate, bivariate, outliers.
+    5. Feature selection & feature engineering 
+    6. Model training, evaluation, selection.
+    7. Model deployment
+    8. Model Testing
+    9. optimize model
