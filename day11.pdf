@@ -9,6 +9,8 @@ Tensor:
     shape: size of each dimension.  
     size: total number of elements. 
     
-    
+    dataset ka ek column row ek column 1d tensor hoga.
+    Target column 1d tensor hoga.
+    Feature matrix 2d tensor hoga.    
     
     
