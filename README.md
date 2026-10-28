@@ -1,81 +1,43 @@
+# 100 Days of Machine Learning (CampusX)
 
-# 100 Days of Machine Learning - CampusX
+Notes, notebooks and practice datasets from working through the CampusX "100 Days of Machine Learning" course.
 
-Welcome to my journey through the **100 Days of Machine Learning** course by [CampusX](https://www.youtube.com/@CampusX), where I dive deep into the world of machine learning—covering both **coding implementations** and the **mathematical intuition** behind the algorithms.
+## Why this exists
+A day-by-day record of learning machine learning from the ground up: the maths behind each method and its code.
 
-> 🔍 **Goal:** To gain a solid understanding of the theory, intuition, and practical implementation of key machine learning concepts, one day at a time.
+## What it does
+- Days 1-11: written notes as PDFs (ML basics, the ML lifecycle, data roles)
+- Days 13-60: Jupyter notebooks covering data gathering, EDA, feature engineering, encoding, scaling, missing values, outliers and pipelines
+- Practice datasets used in the notebooks (Titanic, placement, cars, wine, house prices and others)
+- Profiling reports generated during EDA (`titanic_report.html`, `train_report.html`)
 
----
+## Project structure
+```
+100-days-of-machine-learning-campusX/
+├── day*.pdf           Notes for days 1-11
+├── day*.ipynb         Notebooks for days 13-60
+├── project..ipynb     End-to-end practice project
+├── *.csv              Practice datasets
+├── digit-recognizer/  Kaggle digit recognizer data
+├── titanic/           Kaggle Titanic data
+├── *_report.html      EDA profiling reports
+├── model.pkl          Model saved in a notebook
+└── mlenv/             Local Python virtual environment
+```
 
-## 📚 What I Learned
+## Getting started
+Requirements: Python 3.10+, Jupyter.
+```bash
+git clone https://github.com/abhijha8287/100-days-of-machine-learning-campusX.git
+cd 100-days-of-machine-learning-campusX
+python -m venv .venv && source .venv/bin/activate
+pip install jupyter pandas numpy scikit-learn matplotlib seaborn
+jupyter notebook day13.ipynb
+```
+Notebooks read the CSVs from the repo root, so start Jupyter from this folder.
 
-### 🧠 Core Concepts
-- Supervised Learning: Regression & Classification
-- Unsupervised Learning: Clustering & Dimensionality Reduction
-- Feature Engineering & Data Preprocessing
-- Model Evaluation Techniques
-- Ensemble Models & Hyperparameter Tuning
-- Real-world Case Studies & Projects
+## Tech stack
+Python, Jupyter, pandas, NumPy, scikit-learn, Matplotlib, Seaborn
 
-### 🔢 Math Behind ML
-- Linear Algebra (Vectors, Matrices, Eigenvalues)
-- Probability & Statistics (Distributions, Bayes' Theorem)
-- Calculus (Derivatives, Gradients)
-- Optimization (Gradient Descent, Cost Functions)
-- Understanding Decision Boundaries and Loss Landscapes
-
-### 💻 Coding Skills
-- Python Programming
-- NumPy, Pandas, Matplotlib, Seaborn
-- Scikit-learn, XGBoost, LightGBM
-- Implementation of Algorithms from Scratch:
-  - Linear Regression
-  - K-Nearest Neighbors
-  - Decision Trees
-  - Logistic Regression
-  - K-Means Clustering
-  - Principal Component Analysis (PCA)
-
----
-
-
-
-## 🧪 Sample Topics Covered
-
-- ✅ Implement Linear Regression from scratch (with gradient descent)
-- ✅ Derive Logistic Regression using Sigmoid + Cross Entropy Loss
-- ✅ Understand Bias-Variance Tradeoff visually
-- ✅ Code Decision Trees manually using Gini/Entropy splits
-- ✅ Implement K-Means from scratch and with `sklearn`
-- ✅ Perform dimensionality reduction using PCA (math + code)
-
----
-
-## 🚀 Outcomes
-
-- 📌 Solidified core ML knowledge
-- 📌 Confidence in both theory and implementation
-- 📌 Ready to build & contribute to real-world ML projects
-- 📌 Portfolio-ready notebooks and models
-
----
-
-## 🧠 Reference Channel
-
-🔗 **CampusX YouTube Playlist**:  
-[📺 100 Days of Machine Learning](https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH)
-
----
-
-## 👨‍💻 Author
-
-**Abhishek Jha**  
-*Aspiring Data Scientist | Machine Learning Enthusiast*  
-[GitHub](https://github.com/abhijha8287) • [LinkedIn](https://linkedin.com/in/abhishekjha15)
-
----
-
-## 📜 License
-
-This repository is for educational purposes. All credits to CampusX for the original course content.
-
+## Notes
+Course: [CampusX on YouTube](https://www.youtube.com/@CampusX). Some day numbers are missing because those lessons had no code. `mlenv/` is a committed virtual environment and is not needed; create your own as shown above.
