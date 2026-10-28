@@ -6,7 +6,7 @@ Notes, notebooks and practice datasets from working through the CampusX "100 Day
 A day-by-day record of learning machine learning from the ground up: the maths behind each method and its code.
 
 ## What it does
-- Days 1-11: written notes as PDFs (ML basics, the ML lifecycle, data roles)
+- Days 1-11: notes as PDFs, with diagrams of data roles (analyst, engineer, scientist, ML engineer)
 - Days 13-60: Jupyter notebooks covering data gathering, EDA, feature engineering, encoding, scaling, missing values, outliers and pipelines
 - Practice datasets used in the notebooks (Titanic, placement, cars, wine, house prices and others)
 - Profiling reports generated during EDA (`titanic_report.html`, `train_report.html`)
